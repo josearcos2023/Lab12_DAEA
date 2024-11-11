@@ -28,7 +28,6 @@ namespace APISemana11A.Controllers
         }
 
 
-
         // GET: api/Products/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
